@@ -2,7 +2,7 @@
 
 
 ## Overview Of Analysis
-The purpose of this analysis is to test multiple machine learning models to determine which one is best suited to identify the risk levels for individual credit applicants. These models were fed more than 80 data points per applicant including demographics, credit history, home ownership, and more, in order to create reliable models to predict whether applicants were likely to default on their credit. Due to the lower prevalence of High-Risk applicants as compared to Low-Risk applicants, these models seek to balance the reprensentation of High-Risk applicants in the training data pool. This is done by increasing sampling from the High-Risk class, reducing sampling from the Low-Risk class or a combination of the two. 
+The purpose of this analysis is to design and test multiple machine learning models to determine which one is best suited to identify the risk levels for individual credit applicants. These models were fed more than 80 data points per applicant including demographics, credit history, home ownership, and more, in order to create reliable models to predict whether applicants were likely to default on their credit. Due to the lower prevalence of High-Risk applicants as compared to Low-Risk applicants, these models seek to balance the reprensentation of High-Risk applicants in the training data pool. This is done by increasing sampling from the High-Risk class, reducing sampling from the Low-Risk class or a combination of the two. 
 
 ## Results
 ### Model 1: Naive Random Oversampling
